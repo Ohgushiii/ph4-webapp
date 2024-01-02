@@ -3,7 +3,7 @@ import Header from "@/components/features/top/header";
 
 export default function Top() {
   return (
-    <body className="bg-gray-100 h-screen">
+    <section className="h-screen bg-gray-100">
       <Header />
       <main className="w-screen h-4/5 pt-24 px-20 flex justify-around">
         <section className="w-5/12 flex-col justify-between h-full flex">
@@ -54,6 +54,6 @@ export default function Top() {
         </section>
       </main >
       <Footer />
-    </body>
+    </section>
   )
 }
