@@ -46,7 +46,7 @@ export default function Top() {
             </div>
           </div>
           <div className="w-2/5 rounded-2xl shadow-md bg-white">
-            <span className="pl-4">学習言語</span>
+            <span className="pl-4 ">学習言語</span>
             <div className="chart-inner">
               <canvas id="content_chart"></canvas>
             </div>
